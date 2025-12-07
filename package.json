@@ -1,0 +1,30 @@
+{
+  "name": "food-delivery",
+  "version": "1.0.0",
+  "description": "This is food delivery app using react",
+  "keywords": [
+    "react"
+  ],
+  "homepage": "https://github.com/kathirav1501/Food-Delivery#readme",
+  "bugs": {
+    "url": "https://github.com/kathirav1501/Food-Delivery/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kathirav1501/Food-Delivery.git"
+  },
+  "license": "ISC",
+  "author": "kathirav",
+  "type": "commonjs",
+
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "parcel": "^2.16.1",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
+  }
+}

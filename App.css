@@ -1,0 +1,82 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 0px  10px;
+}
+.logo{
+    width: 70px;
+}
+.nav-list{
+       padding: 0px 20px;
+}
+.nav-list ul {
+    display: flex;
+   list-style: none;
+
+}
+
+.nav-list ul li {
+   padding: 8px;
+   margin: 10px;
+   
+}
+.search{
+    padding: 10px;
+}
+.res-container{
+display: flex;
+flex-wrap: wrap;
+margin: 10px;
+
+
+}
+.res-card {
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff; /* clean white background */
+    border-radius: 15px; /* rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow */
+    text-align: center;
+    transition: all 0.3s ease; /* smooth hover effect */
+    overflow: hidden; /* hide overflow content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.res-card:hover {
+    transform: translateY(-5px); /* slight lift */
+    box-shadow: 0 10px 20px rgba(116, 107, 107, 0.2); /* bigger shadow on hover */
+    cursor: pointer;
+}
+
+/* Optional: Add image inside card */
+.res-card img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Optional: Add title and description */
+.res-card h3 {
+    margin: 5px 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.res-card p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.res-cardimg{
+
+    padding: 5px;
+    width: 180px;
+    margin: 5px;
+}
